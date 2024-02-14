@@ -22,6 +22,7 @@
             flavor = "balanced";
             hold-trigger-on-release;
             require-prior-idle-ms = <100>;
+            quick-tap-ms = <150>;
         };
 
         hmr: homewrow_mods_right {
@@ -35,6 +36,7 @@
             flavor = "balanced";
             hold-trigger-on-release;
             require-prior-idle-ms = <100>;
+            quick-tap-ms = <150>;
         };
 
         tm: thumb_mods {
