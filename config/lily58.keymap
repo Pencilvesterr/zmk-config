@@ -129,11 +129,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans                  &trans               &trans                          &trans                                   &trans                               &trans     &trans                             &trans                      &trans                       &trans                            &trans
-&trans  &kp EXCLAMATION         &kp AT_SIGN          &kp HASH                        &kp DOLLAR                               &kp PERCENT                          &kp CARET  &kp AMPERSAND                      &kp ASTERISK                &kp QUESTION                 &kp SINGLE_QUOTE                  &trans
-&trans  &hml LEFT_CONTROL PLUS  &hml LEFT_ALT EQUAL  &hml LEFT_GUI LEFT_PARENTHESIS  &hml_shift LEFT_SHIFT RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES                    &kp COLON  &hmr_shift RIGHT_SHIFT LEFT_BRACE  &hmr RIGHT_GUI RIGHT_BRACE  &hmr RIGHT_ALT LEFT_BRACKET  &hmr RIGHT_CONTROL RIGHT_BRACKET  &none
-&trans  &kp BACKSLASH           &kp MINUS            &kp LESS_THAN                   &kp GREATER_THAN                         &kp PIPE           &trans    &trans  &kp GRAVE  &kp UNDERSCORE                     &kp SLASH                   &kp TILDE                    &kp SEMICOLON                     &none
-                                                     &trans                          &trans                                   &trans             &trans    &trans  &trans     &trans                             &trans
+&trans  &trans                  &trans               &trans                          &trans                                   &trans                               &trans            &trans                             &trans                      &trans                       &trans                            &trans
+&trans  &kp EXCLAMATION         &kp AT_SIGN          &kp HASH                        &kp DOLLAR                               &kp PERCENT                          &kp CARET         &kp AMPERSAND                      &kp ASTERISK                &kp COLON                    &kp SEMICOLON                     &trans
+&trans  &hml LEFT_CONTROL PLUS  &hml LEFT_ALT EQUAL  &hml LEFT_GUI LEFT_PARENTHESIS  &hml_shift LEFT_SHIFT RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES                    &kp SINGLE_QUOTE  &hmr_shift RIGHT_SHIFT LEFT_BRACE  &hmr RIGHT_GUI RIGHT_BRACE  &hmr RIGHT_ALT LEFT_BRACKET  &hmr RIGHT_CONTROL RIGHT_BRACKET  &none
+&trans  &kp BACKSLASH           &kp MINUS            &kp LESS_THAN                   &kp GREATER_THAN                         &kp PIPE           &trans    &trans  &kp GRAVE         &kp UNDERSCORE                     &kp SLASH                   &kp TILDE                    &kp QUESTION                      &none
+                                                     &trans                          &trans                                   &trans             &trans    &trans  &trans            &trans                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
