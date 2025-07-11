@@ -131,18 +131,18 @@
 &trans  &trans            &trans        &trans        &trans        &trans                        &bt BT_SEL 0  &bt BT_SEL 1           &bt BT_SEL 2             &bt BT_SEL 3          &bt BT_SEL 4      &bt BT_CLR
 &trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp N6        &kp N7                 &kp N8                   &kp N9                &kp N0            &trans
 &trans  &kp LEFT_CONTROL  &kp LALT      &kp LGUI      &kp LSHFT     &trans                        &kp LEFT      &hmr RIGHT_SHIFT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_ALT RIGHT  &kp LEFT_CONTROL  &trans
-&trans  &trans            &trans        &kp K_COPY    &kp K_PASTE   &caps_word  &trans    &trans  &caps_word    &kp LG(C)              &kp LG(P)                &trans                &trans            &trans
+&trans  &trans            &trans        &kp LG(C)     &kp LG(P)     &caps_word  &trans    &trans  &caps_word    &kp LG(C)              &kp LG(P)                &trans                &trans            &trans
                                         &trans        &trans        &trans      &trans    &trans  &trans        &trans                 &trans
             >;
         };
 
         Mouse-and-Functions {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans          &trans        &trans          &trans           &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &mkp LCLK     &mkp RCLK       &trans           &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans    &trans  &trans          &trans        &trans          &trans           &trans  &trans
-                        &trans  &trans  &trans   &trans    &trans  &trans          &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans          &trans           &trans          &trans           &trans            &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &mkp LCLK        &mkp RCLK       &trans           &trans            &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans            &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans    &trans  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN    &kp C_NEXT       &kp C_PLAY_PAUSE  &trans
+                        &trans  &trans  &trans   &trans    &trans  &trans          &trans           &trans
             >;
         };
     };
