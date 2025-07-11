@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
 / {
@@ -157,11 +158,11 @@
 
         Mouse-and-Functions {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &mkp LCLK       &mkp RCLK     &trans           &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans    &trans  &trans          &trans          &trans        &trans           &trans  &trans
-                        &trans  &trans  &trans   &trans    &trans  &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans          &trans        &trans          &trans           &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &mkp LCLK     &mkp RCLK       &trans           &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans    &trans  &trans          &trans        &trans          &trans           &trans  &trans
+                        &trans  &trans  &trans   &trans    &trans  &trans          &trans        &trans
             >;
         };
     };
