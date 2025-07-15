@@ -111,10 +111,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans                  &trans               &trans                          &trans                                   &trans                               &trans            &trans                               &trans                        &trans                     &trans                          &trans
-&trans  &kp EXCLAMATION         &kp AT_SIGN          &kp HASH                        &kp DOLLAR                               &kp PERCENT                          &kp CARET         &kp AMPERSAND                        &kp ASTERISK                  &kp TILDE                  &kp COLON                       &trans
-&trans  &hml LEFT_CONTROL PLUS  &hml LEFT_ALT EQUAL  &hml LEFT_GUI LEFT_PARENTHESIS  &hml_shift LEFT_SHIFT RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES                    &kp SINGLE_QUOTE  &hmr_shift RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_GUI RIGHT_BRACKET  &hmr RIGHT_ALT LEFT_BRACE  &hmr RIGHT_CONTROL RIGHT_BRACE  &trans
-&trans  &kp PIPE                &kp BACKSLASH        &trans                          &kp UNDERSCORE                           &kp MINUS          &trans    &trans  &kp GRAVE         &kp MINUS                            &kp COMMA                     &kp PERIOD                 &kp SEMICOLON                   &trans
+&trans  &trans                  &trans               &trans                          &trans                                   &trans                               &trans            &trans                               &trans                        &trans                           &trans                                &trans
+&trans  &kp EXCLAMATION         &kp AT_SIGN          &kp HASH                        &kp DOLLAR                               &kp PERCENT                          &kp CARET         &kp AMPERSAND                        &kp ASTERISK                  &kp TILDE                        &kp COLON                             &trans
+&trans  &hml LEFT_CONTROL PLUS  &hml LEFT_ALT EQUAL  &hml LEFT_GUI LEFT_PARENTHESIS  &hml_shift LEFT_SHIFT RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES                    &kp SINGLE_QUOTE  &hmr_shift RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_GUI RIGHT_BRACKET  &hmr RIGHT_ALT LEFT_PARENTHESIS  &hmr RIGHT_CONTROL RIGHT_PARENTHESIS  &trans
+&trans  &kp PIPE                &kp BACKSLASH        &trans                          &kp UNDERSCORE                           &trans             &trans    &trans  &kp GRAVE         &kp MINUS                            &trans                        &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &trans
                                                      &trans                          &trans                                   &trans             &trans    &trans  &trans            &trans                               &trans
             >;
         };
