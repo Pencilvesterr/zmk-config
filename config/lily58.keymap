@@ -106,11 +106,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp F11     &kp F1        &kp F2           &kp F3           &kp F4                   &kp F5                                     &kp F6       &kp F7                    &kp F8            &kp F9            &kp F10          &kp F12
-&none       &kp Q         &kp W            &kp E            &kp R                    &kp T                                      &kp Y        &kp U                     &kp I             &kp O             &kp P            &none
-&kp ESCAPE  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml_shift LEFT_SHIFT F  &kp G                                      &kp H        &hmr_shift RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &hmr RCTRL SEMI  &kp SQT
-&none       &kp Z         &kp X            &kp C            &kp V                    &kp B            &none        &none        &kp N        &kp M                     &kp COMMA         &kp DOT           &kp FSLH         &none
-                                           &none            &tm 3 DEL                &tm 2 BACKSPACE  &tm 1 TAB    &tm 1 ENTER  &tm 2 SPACE  &caps_word_or_layer 3 0   &none
+&kp F11         &kp F1        &kp F2           &kp F3           &kp F4                   &kp F5                                     &kp F6       &kp F7                    &kp F8            &kp F9            &kp F10          &kp F12
+&kp TAB         &kp Q         &kp W            &kp E            &kp R                    &kp T                                      &kp Y        &kp U                     &kp I             &kp O             &kp P            &kp RG(C)
+&kp ESCAPE      &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml_shift LEFT_SHIFT F  &kp G                                      &kp H        &hmr_shift RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &hmr RCTRL SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X            &kp C            &kp V                    &kp B            &none        &none        &kp N        &kp M                     &kp COMMA         &kp DOT           &kp FSLH         &kp RG(V)
+                                               &none            &tm 3 DEL                &tm 2 BACKSPACE  &tm 1 TAB    &tm 1 ENTER  &tm 2 SPACE  &caps_word_or_layer 3 0   &none
             >;
         };
 
@@ -140,11 +140,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans                        &bt BT_SEL 0  &bt BT_SEL 1           &bt BT_SEL 2             &bt BT_SEL 3          &bt BT_SEL 4      &bt BT_CLR
-&trans  &trans  &trans     &trans     &trans     &trans                        &trans        &trans                 &trans                   &trans                &trans            &trans
-&trans  &trans  &trans     &trans     &trans     &trans                        &kp LEFT      &hmr RIGHT_SHIFT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_ALT RIGHT  &kp LEFT_CONTROL  &trans
-&trans  &trans  &kp RG(X)  &kp RG(C)  &kp RG(V)  &caps_word  &trans    &trans  &caps_word    &kp RG(C)              &kp RG(V)                &kp RG(X)             &trans            &trans
-                           &trans     &trans     &trans      &trans    &trans  &trans        &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans        &trans        &trans        &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans
             >;
         };
 
