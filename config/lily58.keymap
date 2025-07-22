@@ -110,7 +110,7 @@
 &kp TAB         &kp Q         &kp W            &kp E            &kp R                    &kp T                                      &kp Y        &kp U                     &kp I             &kp O             &kp P            &kp RG(C)
 &kp ESCAPE      &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml_shift LEFT_SHIFT F  &kp G                                      &kp H        &hmr_shift RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &hmr RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z         &kp X            &kp C            &kp V                    &kp B            &none        &none        &kp N        &kp M                     &kp COMMA         &kp DOT           &kp FSLH         &kp RG(V)
-                                               &none            &tm 3 DEL                &tm 2 BACKSPACE  &tm 1 TAB    &tm 1 ENTER  &tm 2 SPACE  &caps_word_or_layer 3 0   &none
+                                               &none            &kp DEL                  &tm 2 BACKSPACE  &tm 1 TAB    &tm 1 ENTER  &tm 2 SPACE  &caps_word                &none
             >;
         };
 
@@ -145,16 +145,6 @@
 &trans   &trans  &kp C_PREV  &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp C_NEXT                    &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &trans        &trans
 &trans   &trans  &trans      &trans        &kp C_PAUSE        &kp C_PLAY  &trans    &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans        &trans
                              &trans        &trans             &trans      &trans    &trans  &trans          &trans          &trans
-            >;
-        };
-
-        Mouse-and-Functions {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans          &trans           &trans          &trans           &trans            &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &mkp LCLK        &mkp RCLK       &trans           &trans            &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans            &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans    &trans  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN    &kp C_NEXT       &kp C_PLAY_PAUSE  &trans
-                        &trans  &trans  &trans   &trans    &trans  &trans          &trans           &trans
             >;
         };
     };
