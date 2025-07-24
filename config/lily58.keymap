@@ -92,17 +92,6 @@
             flavor = "balanced";
             hold-trigger-on-release;
         };
-
-        msc: msc {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MSC";
-            #binding-cells = <1>;
-            x-input-code = <8>;
-            acceleration-exponent = <0>;
-            trigger-period-ms = <40>;
-            y-input-code = <8>;
-            time-to-max-speed-ms = <300>;
-        };
     };
 
     keymap {
